@@ -1,6 +1,6 @@
 
-`include "FLP_adder.v"
-`include "First_stage_FLP_adder.v"
+// `include "FLP_adder.v"
+// `include "First_stage_FLP_adder.v"
 
 module FLP_adder_tree #(
   parameter NUM_INPUTS=10, parameter EXP_WIDTH=9, parameter MANT_WIDTH=8
