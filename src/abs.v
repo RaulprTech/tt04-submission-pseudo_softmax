@@ -1,4 +1,4 @@
-module absolute_value #(parameter EXP_WIDTH = 9) (
+module abs #(parameter EXP_WIDTH = 9) (
   input signed [EXP_WIDTH-1:0] value,
   output [EXP_WIDTH-1:0] abs_value
 );
