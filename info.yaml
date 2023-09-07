@@ -9,8 +9,8 @@ project:
     - reciprocal_pwl.v
     - sub_sub_add.v
     - shift_reg.v
-    - tt_um_reciprocal_RaulprTech.v
-  top_module:  "tt_um_reciprocal_RaulprTech"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
+    - tt_um_pwl_RaulprTech.v
+  top_module:  "tt_um_pwl_RaulprTech"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
 
 # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 4x2 or 8x2
@@ -62,7 +62,7 @@ documentation:
     - none
 
 # The following fields are optional
-  tag:          "reciprocal, inverse"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+  tag:          "reciprocal, inverse, pwl"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  ""      # Describe any external hardware needed
   discord:      ""      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
