@@ -1,23 +1,4 @@
 
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 08.02.2023 13:14:34
-// Design Name: 
-// Module Name: FLP_adder
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 `include "abs.v"
 `include "shift_reg.v"
@@ -50,7 +31,7 @@ module FLP_adder #(
   // Resta de exponentes
   assign sum = exp1 - exp2;
 
-  // Instanciar el módulo de valor absoluto
+  // Instanciar el mï¿½dulo de valor absoluto
   absolute_value abs(
     .value(sum),
     .abs_value(abs_value)
