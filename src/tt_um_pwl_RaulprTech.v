@@ -13,12 +13,11 @@ module tt_um_pseudo_softmax_RaulprTech (
 assign uio_out = 0;
 assign uio_oe = 0;
     
-pseudo_softmax M0
+reciprocal M0
 (
      .clk(clk),
-    .input_bus(ui_in[2:0]),
-    .mant_out(uo_out[2:0]),
-    .exp_out(uo_out[6:3])
+    .in(ui_in),
+    .out(uo_out),
 );
 
 endmodule

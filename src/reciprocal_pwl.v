@@ -9,24 +9,24 @@
 // `define X1 8'h00110011   //  1.59375   -   1.10011
 // `define X2 8'h00001001     // 1.125     -   1.001
 
-module reciprocal_pwl #(parameter MANT_WIDTH = 8)(
+module reciprocal_pwl(
   input clk,
-  input [MANT_WIDTH-1:0] in,
-  output [MANT_WIDTH-1:0] out
+  input [7:0] in,
+  output [7:0] out
 );
   
   wire signal_1bit;
-  wire [MANT_WIDTH-1:0] signal_data;
+  wire [7:0] signal_data;
   
-  wire [MANT_WIDTH-1:0] shifted_value1;
-  wire [MANT_WIDTH-1:0] shifted_value2;
-  wire [MANT_WIDTH-1:0] shifted_value3;
-  wire [MANT_WIDTH-1:0] shifted_value4;
+  wire [7:0] shifted_value1;
+  wire [7:0] shifted_value2;
+  wire [7:0] shifted_value3;
+  wire [7:0] shifted_value4;
   
-  wire [MANT_WIDTH-1:0] sum1;
-  wire [MANT_WIDTH-1:0] sum2;
+  wire [7:0] sum1;
+  wire [7:0] sum2;
 
-  assign signal_1bit = in[MANT_WIDTH-1];
+  assign signal_1bit = in[7];
   
   // Registro de desplazamiento con shift_in fijo de 1
   shift_reg reg1(
