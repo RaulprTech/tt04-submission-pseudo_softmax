@@ -1,6 +1,6 @@
 
-`include "sub_sub_add.v"
-`include "shift_reg.v"
+// `include "sub_sub_add.v"
+// `include "shift_reg.v"
 
 
 //`define X1 6'h110011   //  1.59375   -   1.10011
