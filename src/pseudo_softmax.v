@@ -1,8 +1,8 @@
 
 
-`include "FLP_adder_tree.v"
-`include "subtractors_array.v"
-`include "reciprocal_pwl.v"
+// `include "FLP_adder_tree.v"
+// `include "subtractors_array.v"
+// `include "reciprocal_pwl.v"
 
 module pseudo_softmax #(parameter NUM_INPUTS=1, parameter EXP_WIDTH=4, parameter MANT_WIDTH=3)(
   input clk,
