@@ -6,8 +6,8 @@
 //`define X1 6'h110011   //  1.59375   -   1.10011
 //`define X2 4'h1001     // 1.125     -   1.001
 
-`define X1 8'h00110011   //  1.59375   -   1.10011
-`define X2 8'h00001001     // 1.125     -   1.001
+// `define X1 8'h00110011   //  1.59375   -   1.10011
+// `define X2 8'h00001001     // 1.125     -   1.001
 
 module reciprocal_pwl #(parameter MANT_WIDTH = 8)(
   input clk,
