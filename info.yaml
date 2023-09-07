@@ -29,10 +29,10 @@ yaml_version: 4
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "a"      # Your name
-  title:        "a"      # Project title
+  author:       "Raul Alberto Pacheco Rodriguez"      # Your name
+  title:        "Softmax"      # Project title
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "a"      # Short description of what your project does
+  description:  "this is a module softmax for models of machine learning"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -80,3 +80,4 @@ documentation:
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     10000000       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository (must be 512kb or less)
+
