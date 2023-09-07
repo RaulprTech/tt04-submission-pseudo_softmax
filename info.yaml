@@ -29,7 +29,7 @@ yaml_version: 4
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "Raúl Alberto Pacheco Rodríguez"      # Your name
+  author:       "Raul Alberto Pacheco Rodriguez"      # Your name
   title:        "Softmax"      # Project title
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
   description:  "this is a module softmax for models of machine learning"      # Short description of what your project does
