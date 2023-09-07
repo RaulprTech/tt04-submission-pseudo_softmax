@@ -18,7 +18,7 @@ pseudo_softmax M0
      .clk(clk),
     .input_bus(ui_in[2:0]),
     .mant_out(uo_out[2:0]),
-    .exp_out(uo_out[5:3])
+    .exp_out(uo_out[6:3])
 );
 
 endmodule
