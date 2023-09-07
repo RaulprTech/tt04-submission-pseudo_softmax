@@ -1,7 +1,7 @@
 
 
-`include "abs.v"
-`include "shift_reg.v"
+// `include "abs.v"
+// `include "shift_reg.v"
 
 module First_stage_FLP_adder #(
   parameter EXP_WIDTH=9, parameter MANT_WIDTH=8
