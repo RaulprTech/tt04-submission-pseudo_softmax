@@ -6,7 +6,7 @@ project:
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
   source_files:
-    - tt_um_softmax_RaulprTech.v
+    - tt_um_pseudo_softmax_RaulprTech.v
     - pseudo_softmax.v       
     - FLP_adder_tree.v
     - reciprocal_pwl.v
@@ -16,7 +16,7 @@ project:
     - abs.v
     - sub_sub_add.v
     - shift_reg.v
-  top_module:  "tt_um_softmax_RaulprTech"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
+  top_module:  "tt_um_pseudo_softmax_RaulprTech"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
 
 # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"    # Valid values: 1x1, 1x2, 2x2, 4x2 or 8x2
