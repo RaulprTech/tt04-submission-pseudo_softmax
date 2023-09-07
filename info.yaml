@@ -29,10 +29,10 @@ yaml_version: 4
 #
 # Here is a great example: https://github.com/davidsiaw/tt02-davidsiaw-stackcalc/blob/38c5647f83aad2aec675d566aa3d67b98f0aac81/info.yaml
 documentation: 
-  author:       "uriel jaramillo"      # Your name
-  title:        "clock divider"      # Project title
+  author:       "raul pacheco rodriguez"      # Your name
+  title:        "softmax"      # Project title
   language:     "Verilog" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "divide the clock "      # Short description of what your project does
+  description:  "softmax for machine learning layers "      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -44,9 +44,9 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
-    - none
-    - none
-    - none
+    - input_bus[0]
+    - input_bus[1]
+    - input_bus[2]
     - none
     - none
     - none
@@ -54,14 +54,14 @@ documentation:
     - none
 # A description of what the outputs do (e.g. status LED, SPI MISO, etc)
   outputs:
-    - cout1
-    - cout2
-    - cout3
-    - cout4
-    - cout5
-    - cout6
-    - cout7
-    - cout8
+    - mant_out[0]
+    - mant_out[1]
+    - mant_out[2]
+    - exp_out[0]
+    - exp_out[1]
+    - exp_out[2]
+    - exp_out[3]
+    - none
 # A description of what the bidirectional I/O pins do (e.g. I2C SDA, I2C SCL, etc)
   bidirectional:
     - none
@@ -74,7 +74,7 @@ documentation:
     - none
 
 # The following fields are optional
-  tag:          "clock, divider"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+  tag:          "dnn, cnn, softmax, activation_function"      # comma separated list of tags: test, encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   external_hw:  ""      # Describe any external hardware needed
   discord:      ""      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
