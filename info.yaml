@@ -13,7 +13,7 @@ project:
     - subtractors_array.v
     - First_stage_FLP_adder.v
     - FLP_adder.v
-    - absolute_value.v
+    - abs.v
     - sub_sub_add.v
     - shift_reg.v
   top_module:  "tt_um_softmax_RaulprTech"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
