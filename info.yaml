@@ -11,7 +11,7 @@ project:
     - FLP_adder_tree.v
     - reciprocal_pwl.v
     - subtractors_array.v
-    - First_adder_tree.v
+    - First_stage_FLP_adder.v
     - FLP_adder.v
     - absolute_value.v
     - sub_sub_add.v
