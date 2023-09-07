@@ -1,6 +1,6 @@
 
 
-module tt_um_softmax_RaulprTech (
+module tt_um_pseudo_softmax_RaulprTech (
     input  wire [7:0] ui_in,    // Dedicated inputs - connected to the input switches for clk_selector and pattern_sel
     output wire [7:0] uo_out,   // Dedicated outputs - connected to the 7 LEDs
     input  wire [7:0] uio_in,   // IOs: Bidirectional Input path
