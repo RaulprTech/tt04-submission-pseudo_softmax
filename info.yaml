@@ -9,7 +9,7 @@ project:
     - reciprocal_pwl.v
     - sub_sub_add.v
     - shift_reg.v
-    - tt_um_pseudo_softmax_RaulprTech.v
+    - tt_um_reciprocal_RaulprTech.v
   top_module:  "tt_um_reciprocal_RaulprTech"      # Put the name of your top module here, must start with "tt_um_". Make it unique by including your github username
 
 # How many tiles your design occupies? A single tile is about 167x108 uM.
