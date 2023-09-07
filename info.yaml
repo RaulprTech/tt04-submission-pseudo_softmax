@@ -10,7 +10,7 @@ project:
     - pseudo_softmax.v       
     - FLP_adder_tree.v
     - reciprocal_pwl.v
-    - substractors_array.v
+    - subtractors_array.v
     - First_adder_tree.v
     - FLP_adder.v
     - absolute_value.v
