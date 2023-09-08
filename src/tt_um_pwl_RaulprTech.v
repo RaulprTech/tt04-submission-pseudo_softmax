@@ -17,7 +17,7 @@ reciprocal_pwl M0
 (
     .clk(clk),
     .in(ui_in),
-    .out(uo_out),
+    .out(uo_out)
 );
 
 endmodule
