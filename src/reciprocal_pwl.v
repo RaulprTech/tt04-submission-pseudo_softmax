@@ -38,14 +38,14 @@ module reciprocal_pwl(
   sub_sub_add adder1(
     .num1(shifted_value1),
     .num2(shifted_value2),
-    .num3(8'h00110011),
+    .num3(8'b00110011),
     .result(sum1)
   );
   
   // Registro de desplazamiento con shift_in fijo de 2
   shift_reg reg3(
     .clk(clk),
-    .data_in(signal_data),
+    .data_in(in),
     .shift_in(8'h02),
     .data_out(shifted_value3)
   );
@@ -53,7 +53,7 @@ module reciprocal_pwl(
   // Registro de desplazamiento con shift_in fijo de 4
   shift_reg reg4(
     .clk(clk),
-    .data_in(signal_data),
+    .data_in(in),
     .shift_in(8'h04),
     .data_out(shifted_value4)
   );
@@ -61,7 +61,7 @@ module reciprocal_pwl(
   sub_sub_add adder2(
     .num1(shifted_value3),
     .num2(shifted_value4),
-    .num3(8'h00001001),
+    .num3(8'b00001001),
     .result(sum2)
   );
   
