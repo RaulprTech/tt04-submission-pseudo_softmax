@@ -15,7 +15,7 @@ assign uio_oe = 0;
     
 reciprocal_pwl M0
 (
-     .clk(clk),
+    .clk(clk),
     .in(ui_in),
     .out(uo_out),
 );
